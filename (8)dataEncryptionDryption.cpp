@@ -17,7 +17,7 @@ int main(){
 	
 	switch(choice){
 		case 1:
-			for(i= 0 ; i<length && str[i] != '\0' ; i++)
+			for(i= 0 ; i<length && str[i] !='\0'; i++)
 			{
 				str[i] = str[i] + 3 ;
 			}
